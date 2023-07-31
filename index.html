@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e_site</title>
+
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Bootstrap Link -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Iconscout link -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
+
+    <!-- meterial icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+
+    <!-- Goggle Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Inspiration&family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- nav part start here -->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>EFTAB</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="catagories.html">Catagories</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <li><i class="bi bi-brightness-high-fill sun" id="toggleDark"></i></li>
+            <button id="open-menu-btn"><i class="uis uis-bars"></i></button>
+            <button id="close-menu-btn"><i class="uis uis-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- nav part end here -->
+
+    <!-- home part start here -->
+
+    <section class="home container" id="home">
+        <div class="home_left">
+            <div class="home_content">
+                <h1 style="color:#00abf0;">Hi! I'm Abdul Kader</h1>
+                <div class="text_animation">
+                    <h3>Frontend Developer</h3>
+                </div>
+            </div>
+            <div class="btn-box">
+                <a href="#" class="btnb">Hire Me</a>
+                <a href="#" class="btnb">Let's Talk</a>
+            </div>
+            <div class="home-sci">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+        <div class="profile-area"> 
+            <div class="outer-circle">
+                <!-- <span class="material-icons-sharp">design_services</span>
+                <span class="material-icons-sharp">dns</span>
+                <span class="material-icons-sharp">code</span> -->
+                <!-- <span class="material-icons-sharp">data_object</span> -->
+            </div>
+            <div class="inner-circle">
+                <img src="./image/kader.jpg" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- home part end here -->
+
+    <!-- product catagories part start here -->
+    <section class="catagories container">
+        <div class="sidebar">
+            <section class="categories-section">
+                <h3 class="section_title">Categories</h3>
+                <ul class="list">
+                    <li class="list_item">
+                        <label for="phone">
+                            <input 
+                            type="checkbox" 
+                            name="phone" 
+                            id="phone" 
+                            value="phone"
+                            /> Phone
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="laptop">
+                            <input 
+                            type="checkbox" 
+                            name="laptop" 
+                            id="laptop" 
+                            value="laptop"
+                            /> Laptop
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="camera">
+                            <input 
+                            type="checkbox" 
+                            name="camera" 
+                            id="camera" 
+                            value="camera"
+                            /> Camera
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="computer">
+                            <input 
+                            type="checkbox" 
+                            name="computer" 
+                            id="computer" 
+                            value="computer"
+                            /> Computer
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="television">
+                            <input 
+                            type="checkbox" 
+                            name="television" 
+                            id="television" 
+                            value="television"
+                            /> Television
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <section class="price-section">
+                <h3 class="section_title">Price Range</h3>
+                <ul class="list">
+                    <li class="list_item">
+                        <label for="phone">
+                            <input 
+                            type="radio" 
+                            name="phone" 
+                            id="phone" 
+                            value="phone"
+                            /> Phone
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="laptop">
+                            <input 
+                            type="radio" 
+                            name="laptop" 
+                            id="laptop" 
+                            value="laptop"
+                            /> Laptop
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="camera">
+                            <input 
+                            type="radio" 
+                            name="camera" 
+                            id="camera" 
+                            value="camera"
+                            /> Camera
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="computer">
+                            <input 
+                            type="radio" 
+                            name="computer" 
+                            id="computer" 
+                            value="computer"
+                            /> Computer
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="television">
+                            <input 
+                            type="radio" 
+                            name="television" 
+                            id="television" 
+                            value="television"
+                            /> Television
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <section class="price-section">
+                <h3 class="section_title">Payment</h3>
+                <ul class="list">
+                    <li class="list_item">
+                        <label for="Paid">
+                            <input 
+                            type="radio" 
+                            name="paid" 
+                            id="paid" 
+                            value="paid"
+                            /> Paid
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="free">
+                            <input 
+                            type="radio" 
+                            name="free" 
+                            id="free" 
+                            value="free"
+                            /> Free
+                        </label>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="grid_responsive">
+            <div class="main-content">
+                <!-- <section class="actions flex-space-around">
+                    <div class="actions_sort">
+                        <label for="short">Short By :</label>
+                        <select name="post" id="short">
+                            <option value="sold">Most sold first</option>
+                            <option value="rating">Most rated first </option>
+                            <option value="price">Cheapest first</option>
+                            <option value="arrival">Newest first</option>
+                            <option value="discount">Biggest discount first</option>
+                        </select>
+                    </div>
+                    <div class="actions_search">
+                        <input type="text" placeholder="search product">
+                        <button class="btn">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </section> -->
+                <section class="products">
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>3 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/p1.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Sony V-4 headphone</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$12.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>9 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/p2.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Smart Watches</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$45.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>8 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/p3.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Apple Laptop</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$250.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>3 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/p4.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">iphone</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$120.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>6 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/p5.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Electric Cycle</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$250.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>2 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/p6.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Toys</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$15.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>3 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/ladies bag.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Ladies Bag</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$77.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>9 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/shampoo mens.jpeg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Shampoo</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$20.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>8 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/grosery item.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Grosery Item</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$100.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>3 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/motorcycle.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Motorcycle</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$500.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Available</span>
+                            <hr class="hr_design">
+                            <span>6 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/food.jpg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Food Items</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$200.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                    <article class="product card">
+                        <div class="badge">
+                            <span>Out Of Stock</span>
+                            <hr class="hr_design">
+                            <span>2 sold</span>
+                        </div>
+                        <img class="product_image" src="./image/karushilpo.jpeg" alt="product1">
+                        <div class="product_body">
+                            <h3 class="product_name">Karushilpo</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span>                        
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dignissimos!.....<a href="product.html" class="learn-more">learn more</a>
+                            </p>
+                            <h4 class="product_price">$250.33</h4>
+                            <p class="product_rating">Rating: 4.5/5</p>
+                            <button class="btn product_button">Add to cart</button>
+                        </div>
+                    </article>
+                </section>
+                <div class="pagination">
+                    <button class="btn pagination_btn">
+                        <i class="fas fa-less-than"></i>
+                    </button>
+                    <button class="btn pagination_btn">2</button>
+                    <button class="btn pagination_btn">3</button>
+                    <button class="btn pagination_btn">4</button>
+                    <button class="btn pagination_btn">5</button>
+                    <button class="btn pagination_btn">6</button>
+                    <button class="btn pagination_btn">7</button>
+                    <button class="btn pagination_btn">8</button>
+                    <button class="btn pagination_btn">9</button>
+                    <button class="btn pagination_btn">10</button>
+                    <button class="btn pagination_btn">...</button>
+                    <button class="btn pagination_btn">50</button>
+                    <button class="btn pagination_btn">
+                        <i class="fas fa-greater-than"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- product catagories part end here -->
+
+   
+
+    <!-- login part start here -->
+    <!-- <section class="login">
+        <h2 class="section_title text-center" style="color:black">User Login</h2>
+        <div class="card">
+            <form action="" class="form">
+                
+                <div class="form-control flex-center">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" required autocomplete="email">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="password">Password :</label>
+                    <input class="myInput" type="password" id="password" required autocomplete="password">
+                </div>
+                <div class="check_pass">
+                    <input type="checkbox" onclick="myFunction()">
+                    <label>Show Password</label>
+                </div>
+                
+                <div class="form-control flex-center form-btn-field">
+                    <button type="submit" class="btn contact-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section> -->
+    <!-- login part end here -->
+
+
+    <!-- contact part start here -->
+    <section class="contact-section container">
+        <h2 class="section_title text-center">Contact Us</h2>
+        <div class="contact-container flex-center">
+            <div class="middle">
+                <form name="contactForm" action="" class="form card" onsubmit="if(confirm('Do you want to submit?')){if(myValidation()==false){return false}}else{event.preventDefault(); return false;}">
+                    <div class="form-control flex-center">
+                        <label for="name">Name :</label>
+                        <input type="text" id="name" name="name"  autocomplete="name">
+                        <span id="name-error"></span>
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="email">Email :</label>
+                         <input type="email" id="email" name="email"  autocomplete="email">
+                         <span id="email-error"></span>
+                    </div>
+                                
+                    <div class="form-control flex-center">
+                        <label for="about">Message :</label>
+                        <textarea type="about" id="about" name="message"  autocomplete="about"></textarea>
+                        <span id="message-error"></span>
+                    </div>
+                    <div class="form-control flex-center form-btn-field">
+                        <button type="submit" class="btn contact-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="contact-address flex-space-around">
+                <address>
+                    <h2>Address</h2>
+                    <p>Rampura, Rangpur-Sadar,Rangpur</p>
+                    <br>
+                    <span>Call</span>
+                    <a href="+8801521389001">+8801521389001</a>
+                </address>
+                <iframe calss="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9045125928556!2d89.22858303101575!3d25.748412964557385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e332193e938b85%3A0x1187023fb0641215!2z4Kaq4Kaw4KeN4Kav4Kaf4KaoIOCmruCni-Cmn-Cnh-Cmsg!5e0!3m2!1sbn!2sbd!4v1680534632446!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- contact part end here -->
+    <!-- footer part start here -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>EGATOR</h4></a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa dolor, recusandae atque laboriosam id molestiae. Reiciendis dolor reprehenderit aperiam?</p>
+            </div>
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Project.html">Project</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4>Primacy</h4>
+                <ul>
+                    <li><a href="index.html">Privacy Policy</a></li>
+                    <li><a href="about.html">Terms and Condition</a></li>
+                    <li><a href="Project.html">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+8801521389001</p>
+                    <p>kdrbipul@gmail.com</p>
+                </div>
+                <ul class="footer_social">
+                    <a href="#"><i class="bi bi-facebook"></i></a>  
+                    <a href="#"><i class="bi bi-instagram"></i></a> 
+                    <a href="#"><i class="bi bi-twitter"></i></a>   
+                    <a href="#"><i class="bi bi-linkedin"></i></a>  
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; Abdul Kader Reserved at 2023</small>
+        </div>
+    </footer>
+    <!-- footer part end here -->
+
+
+    <!-- scroll to top button start here -->
+    <a href="" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <!-- scroll to top button end here -->
+
+
+    <!-- Bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+    <!-- custom javascript -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
